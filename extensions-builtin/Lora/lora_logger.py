@@ -6,7 +6,6 @@ import logging
 class ColoredFormatter(logging.Formatter):
     COLORS = {
         "DEBUG": "\033[0;36m",  # CYAN
-        "INFO": "\033[0;32m",  # GREEN
         "WARNING": "\033[0;33m",  # YELLOW
         "ERROR": "\033[0;31m",  # RED
         "CRITICAL": "\033[0;37;41m",  # WHITE ON RED
