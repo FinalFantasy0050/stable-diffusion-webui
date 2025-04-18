@@ -4,7 +4,6 @@ import time
 
 import numpy as np
 import torch
-import torchvision
 from PIL import Image
 from einops import rearrange, repeat
 from omegaconf import OmegaConf
