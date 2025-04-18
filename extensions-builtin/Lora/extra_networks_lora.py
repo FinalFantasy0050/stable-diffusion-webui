@@ -4,7 +4,6 @@ import networks
 
 class ExtraNetworkLora(extra_networks.ExtraNetwork):
     def __init__(self):
-        super().__init__('lora')
 
         self.errors = {}
         """mapping of network names to the number of errors the network had during operation"""
